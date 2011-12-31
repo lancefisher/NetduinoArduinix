@@ -118,9 +118,9 @@ namespace NetduinoArduinix
                 }
 
                 //blank the old positions
-                for (var i = 0; i < leadingZeroCount; i++)
+                for (var i = digits.Length - leadingZeroCount; i < digits.Length; i++)
                 {
-                    digits[i + leadingZeroCount] = 10;
+                    digits[i] = 10;
                 }
             }
 

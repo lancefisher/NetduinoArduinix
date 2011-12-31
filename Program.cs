@@ -16,7 +16,7 @@ namespace NetduinoArduinix
 
             while (true)
             {
-                ardunix.DisplayNumber(340, ArduinixShield.DisplayMode.AlignLeft);
+                ardunix.DisplayNumber(3741, ArduinixShield.DisplayMode.AlignLeft);
             }
         }
 
