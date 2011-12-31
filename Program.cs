@@ -12,15 +12,13 @@ namespace NetduinoArduinix
         public static void Main()
         {
             var ardunix = new ArduinixShield();
-            //todo: var display = new Ardunix6DigitDisplay(ardunix);
 
             while (true)
             {
-                ardunix.DisplayNumber(3741, ArduinixShield.DisplayMode.AlignLeft);
+                ardunix.DisplayNumber(123456);
             }
+
         }
-
-
 
     }
 
